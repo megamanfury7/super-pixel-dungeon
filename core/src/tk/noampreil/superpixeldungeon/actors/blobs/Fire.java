@@ -17,17 +17,17 @@
  */
 package com.watabou.pixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Burning;
-import com.watabou.pixeldungeon.effects.BlobEmitter;
-import com.watabou.pixeldungeon.effects.particles.FlameParticle;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Terrain;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Burning;
+import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.FlameParticle;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 
 public class Fire extends Blob {
 	

@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.buffs;
+package tk.noampreil.superpixeldungeon.actors.buffs;
 
 import java.util.HashSet;
 
-import com.watabou.pixeldungeon.actors.blobs.ToxicGas;
-import com.watabou.pixeldungeon.ui.BuffIndicator;
+import tk.noampreil.superpixeldungeon.actors.blobs.ToxicGas;
+import tk.noampreil.superpixeldungeon.ui.BuffIndicator;
 
 public class GasesImmunity extends FlavourBuff {
 	

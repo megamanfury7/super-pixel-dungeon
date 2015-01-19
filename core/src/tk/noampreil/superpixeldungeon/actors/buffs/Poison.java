@@ -15,17 +15,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.buffs;
+package tk.noampreil.superpixeldungeon.actors.buffs;
 
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.ResultDescriptions;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.items.rings.RingOfElements.Resistance;
-import com.watabou.pixeldungeon.ui.BuffIndicator;
-import com.watabou.pixeldungeon.utils.GLog;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.*;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.items.rings.RingOfElements.Resistance;
+import tk.noampreil.superpixeldungeon.ui.BuffIndicator;
+import tk.noampreil.superpixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 import com.watabou.utils.Bundle;
 
 public class Poison extends Buff implements Hero.Doom {

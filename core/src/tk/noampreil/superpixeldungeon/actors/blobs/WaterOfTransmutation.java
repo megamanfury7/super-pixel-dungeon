@@ -15,26 +15,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
 import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.Journal.Feature;
-import com.watabou.pixeldungeon.effects.BlobEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.Generator.Category;
-import com.watabou.pixeldungeon.items.potions.Potion;
-import com.watabou.pixeldungeon.items.potions.PotionOfMight;
-import com.watabou.pixeldungeon.items.potions.PotionOfStrength;
-import com.watabou.pixeldungeon.items.rings.Ring;
-import com.watabou.pixeldungeon.items.scrolls.Scroll;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfWeaponUpgrade;
-import com.watabou.pixeldungeon.items.wands.Wand;
-import com.watabou.pixeldungeon.items.weapon.Weapon.Enchantment;
-import com.watabou.pixeldungeon.items.weapon.melee.*;
-import com.watabou.pixeldungeon.plants.Plant;
+import tk.noampreil.superpixeldungeon.Journal.Feature;
+import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.Generator.Category;
+import tk.noampreil.superpixeldungeon.items.potions.*;
+import tk.noampreil.superpixeldungeon.items.rings.Ring;
+import tk.noampreil.superpixeldungeon.items.scrolls.*;
+import tk.noampreil.superpixeldungeon.items.wands.Wand;
+import tk.noampreil.superpixeldungeon.items.weapon.Weapon.Enchantment;
+import tk.noampreil.superpixeldungeon.items.weapon.melee.*;
+import tk.noampreil.superpixeldungeon.plants.Plant;
 
 public class WaterOfTransmutation extends WellWater {
 	

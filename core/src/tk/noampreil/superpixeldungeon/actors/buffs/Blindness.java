@@ -15,10 +15,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.buffs;
+package tk.noampreil.superpixeldungeon.actors.buffs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.ui.BuffIndicator;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.ui.BuffIndicator;
 
 public class Blindness extends FlavourBuff {
 

@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.effects.BlobEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.items.Item;
 import com.watabou.utils.Bundle;
 
 public class Alchemy extends Blob {

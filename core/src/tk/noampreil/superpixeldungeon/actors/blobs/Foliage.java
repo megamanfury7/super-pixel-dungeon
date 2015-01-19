@@ -15,18 +15,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Shadows;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.effects.BlobEmitter;
-import com.watabou.pixeldungeon.effects.particles.ShaftParticle;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Terrain;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Shadows;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.ShaftParticle;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 
 public class Foliage extends Blob {
 	

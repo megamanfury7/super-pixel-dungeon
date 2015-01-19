@@ -15,16 +15,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Frost;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.particles.SnowParticle;
-import com.watabou.pixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Frost;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.SnowParticle;
+import tk.noampreil.superpixeldungeon.items.Heap;
 import com.watabou.utils.Random;
 
 public class Freezing {

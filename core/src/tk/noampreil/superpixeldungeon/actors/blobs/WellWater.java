@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.Journal.Feature;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Terrain;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.Journal.Feature;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

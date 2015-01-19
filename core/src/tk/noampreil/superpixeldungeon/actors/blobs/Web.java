@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.blobs;
+package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Roots;
-import com.watabou.pixeldungeon.effects.BlobEmitter;
-import com.watabou.pixeldungeon.effects.particles.WebParticle;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Roots;
+import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.WebParticle;
 
 public class Web extends Blob {
 	
