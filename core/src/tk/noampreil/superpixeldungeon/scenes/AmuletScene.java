@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 
 public class AmuletScene extends PixelScene {
 
-	private static final String TXT_EXIT	= "Let's call it a day";
+	private static final String TXT_EXIT	= "I win! bwahaha";
 	private static final String TXT_STAY	= "I'm not done yet";
 	
 	private static final int WIDTH			= 120;

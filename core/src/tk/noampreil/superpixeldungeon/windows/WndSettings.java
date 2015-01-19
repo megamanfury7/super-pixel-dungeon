@@ -28,6 +28,7 @@ import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.pixeldungeon.ui.CheckBox;
 import com.watabou.pixeldungeon.ui.RedButton;
 import com.watabou.pixeldungeon.ui.Window;
+import com.watabou.pixeldungeon.windows.WndShatteredSettings;
 
 public class WndSettings extends Window {
 	
@@ -51,6 +52,7 @@ public class WndSettings extends Window {
 	private static final String TXT_SWITCH_FULL = "Switch to fullscreen";
 	private static final String TXT_SWITCH_WIN = "Switch to windowed";
 
+	private static final String TXT_SHATTEREDPIXELOPTIONS = "Add/remove Shattered features";
 	private static final int WIDTH		= 112;
 	private static final int BTN_HEIGHT	= 20;
 	private static final int GAP 		= 2;
@@ -127,7 +129,16 @@ public class WndSettings extends Window {
 		btnSound.setRect( 0, btnMusic.bottom() + GAP, WIDTH, BTN_HEIGHT );
 		btnSound.checked( PixelDungeon.soundFx() );
 		add( btnSound );
-
+		CheckBox btnSP=new CheckBox( TXT_SHATTEREDPIXELOPTIONS ) {
+			@Override
+			public void onClick(){
+				super.onClick();
+				Sample.INSTANCE.play( Assets.SND_CLICK );
+				parent.add( new WndSettings() );
+			}
+		};
+		
+		}
 		Application.ApplicationType type = Gdx.app.getType();
 
 		Button lastBtn = btnSound;

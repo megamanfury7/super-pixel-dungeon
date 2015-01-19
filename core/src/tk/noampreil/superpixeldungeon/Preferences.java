@@ -33,15 +33,15 @@ public enum Preferences {
 	public static final String KEY_DONATED		= "donated";
 	public static final String KEY_INTRO		= "intro";
 	public static final String KEY_BRIGHTNESS	= "brightness";
-
+	public static final String KEY_SHATTERED_SIGNPOSTS  = "sps";
 	public static final String KEY_WINDOW_FULLSCREEN	= "windowFullscreen";
 	public static final String KEY_WINDOW_WIDTH			= "windowWidth";
 	public static final String KEY_WINDOW_HEIGHT		= "windowHeight";
-
+	public static final String KEY_SHATTERED_QUESTS     = "spq";
 	public static final int DEFAULT_WINDOW_WIDTH = 480;
 	public static final int DEFAULT_WINDOW_HEIGHT = 800;
 
-	public static final String FILE_NAME = "pd-prefs";
+	public static final String FILE_NAME = "superpd-prefs";
 
 	private com.badlogic.gdx.Preferences prefs;
 	

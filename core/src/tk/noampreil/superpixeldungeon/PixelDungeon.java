@@ -234,12 +234,23 @@ public class PixelDungeon extends Game<GameAction> {
 	public static boolean intro() {
 		return Preferences.INSTANCE.getBoolean( Preferences.KEY_INTRO, true );
 	}
-	
-	
+	public static boolean shatteredpixelsigns(){
+		return Preferences.INSTANCE.getBoolean( Preferences.KEY_SHATTERED_SIGNPOSTS, false);
+	}
+	public static void shatteredpixelsigns( boolean value){
+		Preferences.INSTANCE.put( Preferences.KEY_SHATTERED_SIGNPOSTS, value)
+	}
+	public static boolean shatteredpixelquests(){
+		return Preferences.INSTANCE.getBoolean( Preferences.KEY_SHATTERED_QUESTS, false);
+	}
+	public static void shatteredpixelquests( boolean value){
+		Preferences.INSTANCE.put( Preferences.KEY_SHATTERED_QUESTS, value)
+	}
 	public static void switchNoFade( Class<? extends PixelScene> c ) {
 		PixelScene.noFade = true;
 		switchScene( c );
 	}
+	
 	
 	/*
 	 * <--- Preferences

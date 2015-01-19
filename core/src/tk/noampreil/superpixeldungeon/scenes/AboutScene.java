@@ -30,14 +30,17 @@ import com.watabou.pixeldungeon.ui.Window;
 public class AboutScene extends PixelScene {
 
 	private static final String TXT = 
+		"Super Pixel Dungeon: Noam Preil.\n" +
+		"Some features included were requested on wikia.\n" +
+		"If you have any ideas, feel free to share!\n" +
 		"Original code & graphics: Watabou\n" +
-		"LibGDX port: Arcnor\n" +
+		"Original LibGDX port: Arcnor\n" +
 		"Music: Cube_Code\n\n" + 
 		"This game is inspired by Brian Walker's Brogue. " +
 		"Try it on Windows, Mac OS or Linux - it's awesome! ;)\n\n" +
 		"Please visit official website for additional info:";
 	
-	private static final String LNK = "pixeldungeon.watabou.ru";
+	private static final String LNK = "super-pixel-dungeon.wikia.com;
 	
 	@Override
 	public void create() {

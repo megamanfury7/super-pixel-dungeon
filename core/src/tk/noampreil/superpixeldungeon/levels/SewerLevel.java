@@ -23,6 +23,7 @@ import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
 import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.Dungeon;
+import com.watabou.pixeldungeon.PixelDungeon;
 import com.watabou.pixeldungeon.DungeonTilemap;
 import com.watabou.pixeldungeon.actors.mobs.npcs.Ghost;
 import com.watabou.pixeldungeon.items.DewVial;
@@ -105,8 +106,13 @@ public class SewerLevel extends RegularLevel {
 	@Override
 	protected void createMobs() {
 		super.createMobs();
-
+		boolean ghostshattered=PixelDungeon.shatteredpixelquests();
+		if(ghostshattered){
+			Ghost1.Quest.spawn( this );
+		}
+		else{
 		Ghost.Quest.spawn( this );
+		}
 	}
 	
 	@Override
