@@ -15,23 +15,23 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels.features;
+package tk.noampreil.superpixeldungeon.levels.features;
 
-import com.watabou.pixeldungeon.Challenges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Barkskin;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.actors.hero.HeroSubClass;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.particles.LeafParticle;
-import com.watabou.pixeldungeon.items.Dewdrop;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.rings.RingOfHerbalism.Herbalism;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Terrain;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.Challenges;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Barkskin;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.actors.hero.HeroSubClass;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.LeafParticle;
+import tk.noampreil.superpixeldungeon.items.Dewdrop;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.rings.RingOfHerbalism.Herbalism;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 import com.watabou.utils.Random;
 
 public class HighGrass {

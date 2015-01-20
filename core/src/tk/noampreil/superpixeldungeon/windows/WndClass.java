@@ -15,16 +15,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Group;
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.actors.hero.HeroClass;
-import com.watabou.pixeldungeon.actors.hero.HeroSubClass;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Badges;
+import tk.noampreil.superpixeldungeon.actors.hero.HeroClass;
+import tk.noampreil.superpixeldungeon.actors.hero.HeroSubClass;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class WndClass extends WndTabbed {
 	

@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.sprites;
+package tk.noampreil.superpixeldungeon.sprites;
 
 import com.watabou.noosa.TextureFilm;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.actors.mobs.Shaman;
-import com.watabou.pixeldungeon.effects.Lightning;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.actors.mobs.Shaman;
+import tk.noampreil.superpixeldungeon.effects.Lightning;
 
 public class ShamanSprite extends MobSprite {
 	

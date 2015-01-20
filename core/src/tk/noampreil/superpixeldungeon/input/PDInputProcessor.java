@@ -1,4 +1,4 @@
-package com.watabou.pixeldungeon.input;
+package tk.noampreil.superpixeldungeon.input;
 
 import com.badlogic.gdx.Input;
 import com.watabou.input.NoosaInputProcessor;

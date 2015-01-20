@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.sprites;
+package tk.noampreil.superpixeldungeon.sprites;
 
 import com.watabou.noosa.Game;
 import com.watabou.noosa.MovieClip;
@@ -23,20 +23,20 @@ import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.tweeners.PosTweener;
 import com.watabou.noosa.tweeners.Tweener;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.effects.EmoIcon;
-import com.watabou.pixeldungeon.effects.FloatingText;
-import com.watabou.pixeldungeon.effects.IceBlock;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.effects.Splash;
-import com.watabou.pixeldungeon.effects.TorchHalo;
-import com.watabou.pixeldungeon.effects.particles.FlameParticle;
-import com.watabou.pixeldungeon.items.potions.PotionOfInvisibility;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.DungeonTilemap;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.effects.EmoIcon;
+import tk.noampreil.superpixeldungeon.effects.FloatingText;
+import tk.noampreil.superpixeldungeon.effects.IceBlock;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.effects.Splash;
+import tk.noampreil.superpixeldungeon.effects.TorchHalo;
+import tk.noampreil.superpixeldungeon.effects.particles.FlameParticle;
+import tk.noampreil.superpixeldungeon.items.potions.PotionOfInvisibility;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 import com.watabou.utils.Callback;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;

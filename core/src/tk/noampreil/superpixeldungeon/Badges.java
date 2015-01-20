@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon;
+package tk.noampreil.superpixeldungeon;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,24 +27,24 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.watabou.noosa.Game;
-import com.watabou.pixeldungeon.actors.mobs.Acidic;
-import com.watabou.pixeldungeon.actors.mobs.Albino;
-import com.watabou.pixeldungeon.actors.mobs.Bandit;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.actors.mobs.Senior;
-import com.watabou.pixeldungeon.actors.mobs.Shielded;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.bags.ScrollHolder;
-import com.watabou.pixeldungeon.items.bags.SeedPouch;
-import com.watabou.pixeldungeon.items.bags.WandHolster;
-import com.watabou.pixeldungeon.items.potions.Potion;
-import com.watabou.pixeldungeon.items.rings.Ring;
-import com.watabou.pixeldungeon.items.rings.RingOfHaggler;
-import com.watabou.pixeldungeon.items.rings.RingOfThorns;
-import com.watabou.pixeldungeon.items.scrolls.Scroll;
-import com.watabou.pixeldungeon.items.wands.Wand;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.actors.mobs.Acidic;
+import tk.noampreil.superpixeldungeon.actors.mobs.Albino;
+import tk.noampreil.superpixeldungeon.actors.mobs.Bandit;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.actors.mobs.Senior;
+import tk.noampreil.superpixeldungeon.actors.mobs.Shielded;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.bags.ScrollHolder;
+import tk.noampreil.superpixeldungeon.items.bags.SeedPouch;
+import tk.noampreil.superpixeldungeon.items.bags.WandHolster;
+import tk.noampreil.superpixeldungeon.items.potions.Potion;
+import tk.noampreil.superpixeldungeon.items.rings.Ring;
+import tk.noampreil.superpixeldungeon.items.rings.RingOfHaggler;
+import tk.noampreil.superpixeldungeon.items.rings.RingOfThorns;
+import tk.noampreil.superpixeldungeon.items.scrolls.Scroll;
+import tk.noampreil.superpixeldungeon.items.wands.Wand;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.utils.GLog;
 import com.watabou.utils.Bundle;
 
 public class Badges {

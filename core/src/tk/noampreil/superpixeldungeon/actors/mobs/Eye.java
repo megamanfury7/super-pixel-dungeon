@@ -15,27 +15,27 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs;
+package tk.noampreil.superpixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.ResultDescriptions;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Light;
-import com.watabou.pixeldungeon.actors.buffs.Terror;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.particles.PurpleParticle;
-import com.watabou.pixeldungeon.items.Dewdrop;
-import com.watabou.pixeldungeon.items.wands.WandOfDisintegration;
-import com.watabou.pixeldungeon.items.weapon.enchantments.Death;
-import com.watabou.pixeldungeon.items.weapon.enchantments.Leech;
-import com.watabou.pixeldungeon.mechanics.Ballistica;
-import com.watabou.pixeldungeon.sprites.CharSprite;
-import com.watabou.pixeldungeon.sprites.EyeSprite;
-import com.watabou.pixeldungeon.utils.GLog;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.ResultDescriptions;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Light;
+import tk.noampreil.superpixeldungeon.actors.buffs.Terror;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.PurpleParticle;
+import tk.noampreil.superpixeldungeon.items.Dewdrop;
+import tk.noampreil.superpixeldungeon.items.wands.WandOfDisintegration;
+import tk.noampreil.superpixeldungeon.items.weapon.enchantments.Death;
+import tk.noampreil.superpixeldungeon.items.weapon.enchantments.Leech;
+import tk.noampreil.superpixeldungeon.mechanics.Ballistica;
+import tk.noampreil.superpixeldungeon.sprites.CharSprite;
+import tk.noampreil.superpixeldungeon.sprites.EyeSprite;
+import tk.noampreil.superpixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 import com.watabou.utils.Random;
 
 public class Eye extends Mob {

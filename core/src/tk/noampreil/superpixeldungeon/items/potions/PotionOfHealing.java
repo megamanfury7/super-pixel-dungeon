@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.potions;
+package tk.noampreil.superpixeldungeon.items.potions;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.buffs.Bleeding;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Cripple;
-import com.watabou.pixeldungeon.actors.buffs.Poison;
-import com.watabou.pixeldungeon.actors.buffs.Weakness;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.buffs.Bleeding;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Cripple;
+import tk.noampreil.superpixeldungeon.actors.buffs.Poison;
+import tk.noampreil.superpixeldungeon.actors.buffs.Weakness;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.utils.GLog;
 
 public class PotionOfHealing extends Potion {
 

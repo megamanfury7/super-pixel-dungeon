@@ -15,19 +15,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.armor.glyphs;
+package tk.noampreil.superpixeldungeon.items.armor.glyphs;
 
 import com.watabou.noosa.Camera;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Roots;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.particles.EarthParticle;
-import com.watabou.pixeldungeon.items.armor.Armor;
-import com.watabou.pixeldungeon.items.armor.Armor.Glyph;
-import com.watabou.pixeldungeon.plants.Earthroot;
-import com.watabou.pixeldungeon.sprites.ItemSprite;
-import com.watabou.pixeldungeon.sprites.ItemSprite.Glowing;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Roots;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.EarthParticle;
+import tk.noampreil.superpixeldungeon.items.armor.Armor;
+import tk.noampreil.superpixeldungeon.items.armor.Armor.Glyph;
+import tk.noampreil.superpixeldungeon.plants.Earthroot;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite.Glowing;
 import com.watabou.utils.Random;
 
 public class Entanglement extends Glyph {

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import java.util.Locale;
 
@@ -27,17 +27,17 @@ import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Group;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.TextureFilm;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Statistics;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.ui.BuffIndicator;
-import com.watabou.pixeldungeon.ui.RedButton;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Statistics;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.ui.BuffIndicator;
+import tk.noampreil.superpixeldungeon.ui.RedButton;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class WndHero extends WndTabbed {
 	

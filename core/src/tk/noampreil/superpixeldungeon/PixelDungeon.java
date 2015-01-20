@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon;
+package tk.noampreil.superpixeldungeon;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Graphics;
@@ -24,10 +24,10 @@ import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.scenes.TitleScene;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.scenes.TitleScene;
 import com.watabou.utils.PDPlatformSupport;
 import com.watabou.utils.Signal;
 
@@ -39,59 +39,59 @@ public class PixelDungeon extends Game<GameAction> {
 		Game.version = platformSupport.getVersion();
 
 		com.watabou.utils.Bundle.addAlias(
-			com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade.class, 
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfEnhancement" );
+			tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfUpgrade.class, 
+			"tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfEnhancement" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.blobs.WaterOfHealth.class, 
-			"com.watabou.pixeldungeon.actors.blobs.Light" );
+			tk.noampreil.superpixeldungeon.actors.blobs.WaterOfHealth.class, 
+			"tk.noampreil.superpixeldungeon.actors.blobs.Light" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.rings.RingOfMending.class, 
-			"com.watabou.pixeldungeon.items.rings.RingOfRejuvenation" );
+			tk.noampreil.superpixeldungeon.items.rings.RingOfMending.class, 
+			"tk.noampreil.superpixeldungeon.items.rings.RingOfRejuvenation" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.wands.WandOfTelekinesis.class, 
-			"com.watabou.pixeldungeon.items.wands.WandOfTelekenesis" );
+			tk.noampreil.superpixeldungeon.items.wands.WandOfTelekinesis.class, 
+			"tk.noampreil.superpixeldungeon.items.wands.WandOfTelekenesis" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.blobs.Foliage.class, 
-			"com.watabou.pixeldungeon.actors.blobs.Blooming" );
+			tk.noampreil.superpixeldungeon.actors.blobs.Foliage.class, 
+			"tk.noampreil.superpixeldungeon.actors.blobs.Blooming" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.buffs.Shadows.class, 
-			"com.watabou.pixeldungeon.actors.buffs.Rejuvenation" );
+			tk.noampreil.superpixeldungeon.actors.buffs.Shadows.class, 
+			"tk.noampreil.superpixeldungeon.actors.buffs.Rejuvenation" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.scrolls.ScrollOfPsionicBlast.class, 
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfNuclearBlast" );
+			tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfPsionicBlast.class, 
+			"tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfNuclearBlast" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.hero.Hero.class, 
-			"com.watabou.pixeldungeon.actors.Hero" );
+			tk.noampreil.superpixeldungeon.actors.hero.Hero.class, 
+			"tk.noampreil.superpixeldungeon.actors.Hero" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.mobs.npcs.Shopkeeper.class,
-			"com.watabou.pixeldungeon.actors.mobs.Shopkeeper" );
+			tk.noampreil.superpixeldungeon.actors.mobs.npcs.Shopkeeper.class,
+			"tk.noampreil.superpixeldungeon.actors.mobs.Shopkeeper" );
 		// 1.6.1
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.quest.DriedRose.class,
-			"com.watabou.pixeldungeon.items.DriedRose" );
+			tk.noampreil.superpixeldungeon.items.quest.DriedRose.class,
+			"tk.noampreil.superpixeldungeon.items.DriedRose" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.actors.mobs.npcs.MirrorImage.class,
-			"com.watabou.pixeldungeon.items.scrolls.ScrollOfMirrorImage.MirrorImage" );
+			tk.noampreil.superpixeldungeon.actors.mobs.npcs.MirrorImage.class,
+			"tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfMirrorImage.MirrorImage" );
 		// 1.6.4
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.rings.RingOfElements.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfCleansing" );
+			tk.noampreil.superpixeldungeon.items.rings.RingOfElements.class,
+			"tk.noampreil.superpixeldungeon.items.rings.RingOfCleansing" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.rings.RingOfElements.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfResistance" );
+			tk.noampreil.superpixeldungeon.items.rings.RingOfElements.class,
+			"tk.noampreil.superpixeldungeon.items.rings.RingOfResistance" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.weapon.missiles.Boomerang.class,
-			"com.watabou.pixeldungeon.items.weapon.missiles.RangersBoomerang" );
+			tk.noampreil.superpixeldungeon.items.weapon.missiles.Boomerang.class,
+			"tk.noampreil.superpixeldungeon.items.weapon.missiles.RangersBoomerang" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.items.rings.RingOfPower.class,
-			"com.watabou.pixeldungeon.items.rings.RingOfEnergy" );
+			tk.noampreil.superpixeldungeon.items.rings.RingOfPower.class,
+			"tk.noampreil.superpixeldungeon.items.rings.RingOfEnergy" );
 		// 1.7.2
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.plants.Dreamweed.class,
-			"com.watabou.pixeldungeon.plants.Blindweed" );
+			tk.noampreil.superpixeldungeon.plants.Dreamweed.class,
+			"tk.noampreil.superpixeldungeon.plants.Blindweed" );
 		com.watabou.utils.Bundle.addAlias( 
-			com.watabou.pixeldungeon.plants.Dreamweed.Seed.class,
-			"com.watabou.pixeldungeon.plants.Blindweed$Seed" );
+			tk.noampreil.superpixeldungeon.plants.Dreamweed.Seed.class,
+			"tk.noampreil.superpixeldungeon.plants.Blindweed$Seed" );
 	}
 	
 	@Override
@@ -129,10 +129,6 @@ public class PixelDungeon extends Game<GameAction> {
 	
 	public static void landscape( boolean value ) {
 		// FIXME
-//		Game.instance.setRequestedOrientation( value ?
-//			ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE :
-//			ActivityInfo.SCREEN_ORIENTATION_PORTRAIT );
-//		Preferences.INSTANCE.put( Preferences.KEY_LANDSCAPE, value );
 	}
 	
 	public static boolean landscape() {
@@ -245,6 +241,12 @@ public class PixelDungeon extends Game<GameAction> {
 	}
 	public static void shatteredpixelquests( boolean value){
 		Preferences.INSTANCE.put( Preferences.KEY_SHATTERED_QUESTS, value)
+	}
+	public static boolean shatteredpixelBW(){
+		return Preferences.INSTANCE.getBoolean( Preferences.KEY_SHATTERED_BLINDWEED, false);
+	}
+	public static void shatteredpixelBW( boolean value){
+		Preferences.INSTANCE.put( Preferences.KEY_SHATTERED_BLINDWEED, value)
 	}
 	public static void switchNoFade( Class<? extends PixelScene> c ) {
 		PixelScene.noFade = true;

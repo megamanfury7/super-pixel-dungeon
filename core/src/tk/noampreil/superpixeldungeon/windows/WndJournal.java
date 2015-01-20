@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import java.util.Collections;
 
@@ -23,13 +23,13 @@ import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Component;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.ui.Icons;
-import com.watabou.pixeldungeon.ui.ScrollPane;
-import com.watabou.pixeldungeon.ui.Window;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.ui.Icons;
+import tk.noampreil.superpixeldungeon.ui.ScrollPane;
+import tk.noampreil.superpixeldungeon.ui.Window;
 
 public class WndJournal extends Window {
 	

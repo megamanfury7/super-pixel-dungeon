@@ -15,16 +15,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import java.util.ArrayList;
 
 import com.watabou.noosa.BitmapText;
-import com.watabou.pixeldungeon.Challenges;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.ui.CheckBox;
-import com.watabou.pixeldungeon.ui.Window;
+import tk.noampreil.superpixeldungeon.Challenges;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.ui.CheckBox;
+import tk.noampreil.superpixeldungeon.ui.Window;
 
 public class WndChallenges extends Window {
 

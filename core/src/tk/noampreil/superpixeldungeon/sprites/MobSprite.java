@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.sprites;
+package tk.noampreil.superpixeldungeon.sprites;
 
 import com.watabou.noosa.tweeners.AlphaTweener;
 import com.watabou.noosa.tweeners.ScaleTweener;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.DungeonTilemap;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 

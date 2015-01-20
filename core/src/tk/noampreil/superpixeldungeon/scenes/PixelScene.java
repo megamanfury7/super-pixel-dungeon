@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.scenes;
+package tk.noampreil.superpixeldungeon.scenes;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -23,10 +23,10 @@ import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.*;
 import com.watabou.noosa.BitmapText.Font;
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.effects.BadgeBanner;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Badges;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.effects.BadgeBanner;
 import com.watabou.utils.BitmapCache;
 
 public class PixelScene extends Scene {

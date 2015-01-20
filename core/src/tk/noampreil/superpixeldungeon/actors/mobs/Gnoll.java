@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs;
+package tk.noampreil.superpixeldungeon.actors.mobs;
 
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.mobs.npcs.Ghost;
-import com.watabou.pixeldungeon.items.Gold;
-import com.watabou.pixeldungeon.sprites.GnollSprite;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.Ghost;
+import tk.noampreil.superpixeldungeon.items.Gold;
+import tk.noampreil.superpixeldungeon.sprites.GnollSprite;
 import com.watabou.utils.Random;
 
 public class Gnoll extends Mob {

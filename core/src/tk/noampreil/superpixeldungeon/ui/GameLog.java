@@ -15,16 +15,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.ui;
+package tk.noampreil.superpixeldungeon.ui;
 
 import java.util.regex.Pattern;
 
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.ui.Component;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.sprites.CharSprite;
-import com.watabou.pixeldungeon.utils.GLog;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.sprites.CharSprite;
+import tk.noampreil.superpixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 import com.watabou.utils.Signal;
 
 public class GameLog extends Component implements Signal.Listener<String> {

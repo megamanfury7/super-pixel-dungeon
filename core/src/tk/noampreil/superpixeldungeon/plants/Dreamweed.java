@@ -15,15 +15,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.plants;
+package tk.noampreil.superpixeldungeon.plants;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.blobs.Blob;
-import com.watabou.pixeldungeon.actors.blobs.ConfusionGas;
-import com.watabou.pixeldungeon.items.potions.PotionOfInvisibility;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.blobs.Blob;
+import tk.noampreil.superpixeldungeon.actors.blobs.ConfusionGas;
+import tk.noampreil.superpixeldungeon.items.potions.PotionOfInvisibility;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
 
 public class Dreamweed extends Plant {
 

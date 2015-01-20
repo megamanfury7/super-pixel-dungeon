@@ -15,18 +15,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.food;
+package tk.noampreil.superpixeldungeon.items.food;
 
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Burning;
-import com.watabou.pixeldungeon.actors.buffs.Hunger;
-import com.watabou.pixeldungeon.actors.buffs.Paralysis;
-import com.watabou.pixeldungeon.actors.buffs.Poison;
-import com.watabou.pixeldungeon.actors.buffs.Roots;
-import com.watabou.pixeldungeon.actors.buffs.Slow;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Burning;
+import tk.noampreil.superpixeldungeon.actors.buffs.Hunger;
+import tk.noampreil.superpixeldungeon.actors.buffs.Paralysis;
+import tk.noampreil.superpixeldungeon.actors.buffs.Poison;
+import tk.noampreil.superpixeldungeon.actors.buffs.Roots;
+import tk.noampreil.superpixeldungeon.actors.buffs.Slow;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.utils.GLog;
 import com.watabou.utils.Random;
 
 public class MysteryMeat extends Food {

@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.ui;
+package tk.noampreil.superpixeldungeon.ui;
 
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.ui.Component;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
 
 public class GoldIndicator extends Component {
 

@@ -15,11 +15,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.effects;
+package tk.noampreil.superpixeldungeon.effects;
 
 import com.watabou.noosa.particles.Emitter;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.DungeonTilemap;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 import com.watabou.utils.PointF;
 
 public class CellEmitter {

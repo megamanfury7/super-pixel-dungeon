@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs;
+package tk.noampreil.superpixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Amok;
-import com.watabou.pixeldungeon.actors.buffs.Sleep;
-import com.watabou.pixeldungeon.actors.buffs.Terror;
-import com.watabou.pixeldungeon.actors.mobs.npcs.Imp;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfPsionicBlast;
-import com.watabou.pixeldungeon.sprites.GolemSprite;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Amok;
+import tk.noampreil.superpixeldungeon.actors.buffs.Sleep;
+import tk.noampreil.superpixeldungeon.actors.buffs.Terror;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.Imp;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfPsionicBlast;
+import tk.noampreil.superpixeldungeon.sprites.GolemSprite;
 import com.watabou.utils.Random;
 
 public class Golem extends Mob {

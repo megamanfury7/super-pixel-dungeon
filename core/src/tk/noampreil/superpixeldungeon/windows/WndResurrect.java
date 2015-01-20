@@ -15,19 +15,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Game;
-import com.watabou.pixeldungeon.Rankings;
-import com.watabou.pixeldungeon.Statistics;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.items.Ankh;
-import com.watabou.pixeldungeon.scenes.InterlevelScene;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.sprites.ItemSprite;
-import com.watabou.pixeldungeon.ui.RedButton;
-import com.watabou.pixeldungeon.ui.Window;
+import tk.noampreil.superpixeldungeon.Rankings;
+import tk.noampreil.superpixeldungeon.Statistics;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.items.Ankh;
+import tk.noampreil.superpixeldungeon.scenes.InterlevelScene;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite;
+import tk.noampreil.superpixeldungeon.ui.RedButton;
+import tk.noampreil.superpixeldungeon.ui.Window;
 
 public class WndResurrect extends Window {
 	

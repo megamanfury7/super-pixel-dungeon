@@ -15,19 +15,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.wands;
+package tk.noampreil.superpixeldungeon.items.wands;
 
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.blobs.Blob;
-import com.watabou.pixeldungeon.actors.blobs.Regrowth;
-import com.watabou.pixeldungeon.effects.MagicMissile;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Terrain;
-import com.watabou.pixeldungeon.mechanics.Ballistica;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.blobs.Blob;
+import tk.noampreil.superpixeldungeon.actors.blobs.Regrowth;
+import tk.noampreil.superpixeldungeon.effects.MagicMissile;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.mechanics.Ballistica;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.utils.GLog;
 import com.watabou.utils.Callback;
 
 public class WandOfRegrowth extends Wand {

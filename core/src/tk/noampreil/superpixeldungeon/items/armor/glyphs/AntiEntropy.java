@@ -15,20 +15,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.armor.glyphs;
+package tk.noampreil.superpixeldungeon.items.armor.glyphs;
 
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Burning;
-import com.watabou.pixeldungeon.actors.buffs.Frost;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.particles.FlameParticle;
-import com.watabou.pixeldungeon.effects.particles.SnowParticle;
-import com.watabou.pixeldungeon.items.armor.Armor;
-import com.watabou.pixeldungeon.items.armor.Armor.Glyph;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.sprites.ItemSprite;
-import com.watabou.pixeldungeon.sprites.ItemSprite.Glowing;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Burning;
+import tk.noampreil.superpixeldungeon.actors.buffs.Frost;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.particles.FlameParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.SnowParticle;
+import tk.noampreil.superpixeldungeon.items.armor.Armor;
+import tk.noampreil.superpixeldungeon.items.armor.Armor.Glyph;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite.Glowing;
 import com.watabou.utils.Random;
 
 public class AntiEntropy extends Glyph {

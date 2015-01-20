@@ -15,20 +15,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.armor;
+package tk.noampreil.superpixeldungeon.items.armor;
 
 import java.util.HashMap;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.actors.hero.HeroClass;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.weapon.missiles.Shuriken;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.sprites.MissileSprite;
-import com.watabou.pixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.actors.hero.HeroClass;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.Shuriken;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.sprites.MissileSprite;
+import tk.noampreil.superpixeldungeon.utils.GLog;
 import com.watabou.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {

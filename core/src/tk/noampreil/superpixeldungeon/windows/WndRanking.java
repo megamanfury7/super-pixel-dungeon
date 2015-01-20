@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import java.util.Locale;
 
@@ -26,21 +26,21 @@ import com.watabou.noosa.Group;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Statistics;
-import com.watabou.pixeldungeon.actors.hero.Belongings;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.sprites.HeroSprite;
-import com.watabou.pixeldungeon.ui.BadgesList;
-import com.watabou.pixeldungeon.ui.Icons;
-import com.watabou.pixeldungeon.ui.ItemSlot;
-import com.watabou.pixeldungeon.ui.RedButton;
-import com.watabou.pixeldungeon.ui.ScrollPane;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Badges;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Statistics;
+import tk.noampreil.superpixeldungeon.actors.hero.Belongings;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.sprites.HeroSprite;
+import tk.noampreil.superpixeldungeon.ui.BadgesList;
+import tk.noampreil.superpixeldungeon.ui.Icons;
+import tk.noampreil.superpixeldungeon.ui.ItemSlot;
+import tk.noampreil.superpixeldungeon.ui.RedButton;
+import tk.noampreil.superpixeldungeon.ui.ScrollPane;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class WndRanking extends WndTabbed {
 	

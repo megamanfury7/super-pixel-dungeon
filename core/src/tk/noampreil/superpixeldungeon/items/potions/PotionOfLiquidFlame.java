@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.potions;
+package tk.noampreil.superpixeldungeon.items.potions;
 
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.actors.blobs.Blob;
-import com.watabou.pixeldungeon.actors.blobs.Fire;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.actors.blobs.Blob;
+import tk.noampreil.superpixeldungeon.actors.blobs.Fire;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
 
 public class PotionOfLiquidFlame extends Potion {
 

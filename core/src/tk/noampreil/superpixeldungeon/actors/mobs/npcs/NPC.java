@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs.npcs;
+package tk.noampreil.superpixeldungeon.actors.mobs.npcs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.levels.Level;
 import com.watabou.utils.Random;
 
 public abstract class NPC extends Mob {

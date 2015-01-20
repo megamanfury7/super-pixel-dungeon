@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels.painters;
+package tk.noampreil.superpixeldungeon.levels.painters;
 
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.mobs.Statue;
-import com.watabou.pixeldungeon.items.keys.IronKey;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Room;
-import com.watabou.pixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.mobs.Statue;
+import tk.noampreil.superpixeldungeon.items.keys.IronKey;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Room;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
 import com.watabou.utils.Point;
 
 public class StatuePainter extends Painter {

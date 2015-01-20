@@ -1,4 +1,4 @@
-package com.watabou.pixeldungeon.input;
+package tk.noampreil.superpixeldungeon.input;
 
 public enum GameAction {
 	BACK( null ),

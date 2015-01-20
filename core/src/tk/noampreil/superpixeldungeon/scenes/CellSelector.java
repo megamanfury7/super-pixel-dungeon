@@ -15,15 +15,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.scenes;
+package tk.noampreil.superpixeldungeon.scenes;
 
 import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.TouchArea;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.input.PDInputProcessor;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.DungeonTilemap;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.input.PDInputProcessor;
 import com.watabou.utils.GameMath;
 import com.watabou.utils.Point;
 import com.watabou.utils.PointF;

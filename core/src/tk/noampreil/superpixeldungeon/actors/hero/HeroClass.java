@@ -15,24 +15,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.hero;
+package tk.noampreil.superpixeldungeon.actors.hero;
 
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.items.TomeOfMastery;
-import com.watabou.pixeldungeon.items.armor.ClothArmor;
-import com.watabou.pixeldungeon.items.food.Food;
-import com.watabou.pixeldungeon.items.potions.PotionOfStrength;
-import com.watabou.pixeldungeon.items.rings.RingOfShadows;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfIdentify;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
-import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
-import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
-import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
-import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
-import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
-import com.watabou.pixeldungeon.items.weapon.missiles.Boomerang;
+import tk.noampreil.superpixeldungeon.*;
+import tk.noampreil.superpixeldungeon.items.TomeOfMastery;
+import tk.noampreil.superpixeldungeon.items.armor.ClothArmor;
+import tk.noampreil.superpixeldungeon.items.food.Food;
+import tk.noampreil.superpixeldungeon.items.potions.PotionOfStrength;
+import tk.noampreil.superpixeldungeon.items.rings.RingOfShadows;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfIdentify;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfMagicMapping;
+import tk.noampreil.superpixeldungeon.items.wands.WandOfMagicMissile;
+import tk.noampreil.superpixeldungeon.items.weapon.melee.*;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.Dart;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.Boomerang;
 import com.watabou.utils.Bundle;
 
 public enum HeroClass {

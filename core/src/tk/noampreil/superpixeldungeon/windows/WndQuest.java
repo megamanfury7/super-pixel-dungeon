@@ -15,10 +15,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
-import com.watabou.pixeldungeon.actors.mobs.npcs.NPC;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.NPC;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class WndQuest extends WndTitledMessage {
 	

@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.ui;
+package tk.noampreil.superpixeldungeon.ui;
 
 import com.watabou.noosa.Game;
 import com.watabou.noosa.NinePatch;
 import com.watabou.noosa.ui.Button;
-import com.watabou.pixeldungeon.Chrome;
-import com.watabou.pixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.Chrome;
+import tk.noampreil.superpixeldungeon.input.GameAction;
 
 public class Tag extends Button<GameAction> {
 

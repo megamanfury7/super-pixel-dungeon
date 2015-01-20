@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.scenes;
+package tk.noampreil.superpixeldungeon.scenes;
 
 import com.badlogic.gdx.Gdx;
 import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.*;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.effects.Flare;
-import com.watabou.pixeldungeon.ui.Archs;
-import com.watabou.pixeldungeon.ui.ExitButton;
-import com.watabou.pixeldungeon.ui.Icons;
-import com.watabou.pixeldungeon.ui.Window;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.effects.Flare;
+import tk.noampreil.superpixeldungeon.ui.Archs;
+import tk.noampreil.superpixeldungeon.ui.ExitButton;
+import tk.noampreil.superpixeldungeon.ui.Icons;
+import tk.noampreil.superpixeldungeon.ui.Window;
 
 public class AboutScene extends PixelScene {
 

@@ -15,11 +15,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.bags;
+package tk.noampreil.superpixeldungeon.items.bags;
 
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.plants.Plant;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.plants.Plant;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
 
 public class SeedPouch extends Bag {
 

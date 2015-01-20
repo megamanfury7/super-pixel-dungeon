@@ -22,7 +22,7 @@ import com.badlogic.gdx.Gdx;
 public enum Preferences {
 
 	INSTANCE;
-
+	public static final String KEY_SHATTERED_BLINDWEED ="blindWeed";
 	public static final String KEY_LANDSCAPE	= "landscape";
 	public static final String KEY_SCALE_UP		= "scaleup";
 	public static final String KEY_MUSIC		= "music";

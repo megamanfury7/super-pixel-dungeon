@@ -15,15 +15,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs.npcs;
+package tk.noampreil.superpixeldungeon.actors.mobs.npcs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.effects.particles.ElmoParticle;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.sprites.ImpSprite;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.effects.particles.ElmoParticle;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.sprites.ImpSprite;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class ImpShopkeeper extends Shopkeeper {
 

@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.keys;
+package tk.noampreil.superpixeldungeon.items.keys;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.items.bags.Bag;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.items.bags.Bag;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.utils.Utils;
 
 public class IronKey extends Key {
 

@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels;
+package tk.noampreil.superpixeldungeon.levels;
 
 import java.util.Arrays;
 
 import com.watabou.noosa.Scene;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.items.Amulet;
-import com.watabou.pixeldungeon.levels.painters.Painter;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.items.Amulet;
+import tk.noampreil.superpixeldungeon.levels.painters.Painter;
 import com.watabou.utils.Random;
 
 public class LastLevel extends Level {

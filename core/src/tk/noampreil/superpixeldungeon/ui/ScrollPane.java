@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.ui;
+package tk.noampreil.superpixeldungeon.ui;
 
 import com.watabou.input.NoosaInputProcessor;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.TouchArea;
 import com.watabou.noosa.ui.Component;
-import com.watabou.pixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
 import com.watabou.utils.Point;
 import com.watabou.utils.PointF;
 

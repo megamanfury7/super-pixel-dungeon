@@ -15,26 +15,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs.npcs;
+package tk.noampreil.superpixeldungeon.actors.mobs.npcs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.mobs.Golem;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.actors.mobs.Monk;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.quest.DwarfToken;
-import com.watabou.pixeldungeon.items.rings.Ring;
-import com.watabou.pixeldungeon.levels.CityLevel;
-import com.watabou.pixeldungeon.levels.Room;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.sprites.ImpSprite;
-import com.watabou.pixeldungeon.utils.Utils;
-import com.watabou.pixeldungeon.windows.WndImp;
-import com.watabou.pixeldungeon.windows.WndQuest;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.mobs.Golem;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.actors.mobs.Monk;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.quest.DwarfToken;
+import tk.noampreil.superpixeldungeon.items.rings.Ring;
+import tk.noampreil.superpixeldungeon.levels.CityLevel;
+import tk.noampreil.superpixeldungeon.levels.Room;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.sprites.ImpSprite;
+import tk.noampreil.superpixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.windows.WndImp;
+import tk.noampreil.superpixeldungeon.windows.WndQuest;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

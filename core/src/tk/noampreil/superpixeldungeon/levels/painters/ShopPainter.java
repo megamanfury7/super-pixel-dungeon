@@ -15,34 +15,34 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels.painters;
+package tk.noampreil.superpixeldungeon.levels.painters;
 
 import java.util.ArrayList;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.actors.mobs.npcs.ImpShopkeeper;
-import com.watabou.pixeldungeon.actors.mobs.npcs.Shopkeeper;
-import com.watabou.pixeldungeon.items.Ankh;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.Torch;
-import com.watabou.pixeldungeon.items.Weightstone;
-import com.watabou.pixeldungeon.items.armor.*;
-import com.watabou.pixeldungeon.items.bags.ScrollHolder;
-import com.watabou.pixeldungeon.items.bags.SeedPouch;
-import com.watabou.pixeldungeon.items.bags.WandHolster;
-import com.watabou.pixeldungeon.items.food.OverpricedRation;
-import com.watabou.pixeldungeon.items.potions.PotionOfHealing;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfIdentify;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfRemoveCurse;
-import com.watabou.pixeldungeon.items.weapon.melee.*;
-import com.watabou.pixeldungeon.levels.LastShopLevel;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Room;
-import com.watabou.pixeldungeon.levels.Terrain;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.ImpShopkeeper;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.Shopkeeper;
+import tk.noampreil.superpixeldungeon.items.Ankh;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.Heap;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.Torch;
+import tk.noampreil.superpixeldungeon.items.Weightstone;
+import tk.noampreil.superpixeldungeon.items.armor.*;
+import tk.noampreil.superpixeldungeon.items.bags.ScrollHolder;
+import tk.noampreil.superpixeldungeon.items.bags.SeedPouch;
+import tk.noampreil.superpixeldungeon.items.bags.WandHolster;
+import tk.noampreil.superpixeldungeon.items.food.OverpricedRation;
+import tk.noampreil.superpixeldungeon.items.potions.PotionOfHealing;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfIdentify;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfMagicMapping;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfRemoveCurse;
+import tk.noampreil.superpixeldungeon.items.weapon.melee.*;
+import tk.noampreil.superpixeldungeon.levels.LastShopLevel;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Room;
+import tk.noampreil.superpixeldungeon.levels.Terrain;
 import com.watabou.utils.Point;
 import com.watabou.utils.Random;
 

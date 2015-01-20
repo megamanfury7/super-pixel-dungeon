@@ -15,22 +15,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs;
+package tk.noampreil.superpixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Cripple;
-import com.watabou.pixeldungeon.actors.buffs.Light;
-import com.watabou.pixeldungeon.actors.buffs.Poison;
-import com.watabou.pixeldungeon.items.food.MysteryMeat;
-import com.watabou.pixeldungeon.items.potions.PotionOfHealing;
-import com.watabou.pixeldungeon.items.weapon.enchantments.Leech;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.mechanics.Ballistica;
-import com.watabou.pixeldungeon.sprites.ScorpioSprite;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Cripple;
+import tk.noampreil.superpixeldungeon.actors.buffs.Light;
+import tk.noampreil.superpixeldungeon.actors.buffs.Poison;
+import tk.noampreil.superpixeldungeon.items.food.MysteryMeat;
+import tk.noampreil.superpixeldungeon.items.potions.PotionOfHealing;
+import tk.noampreil.superpixeldungeon.items.weapon.enchantments.Leech;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.mechanics.Ballistica;
+import tk.noampreil.superpixeldungeon.sprites.ScorpioSprite;
 import com.watabou.utils.Random;
 
 public class Scorpio extends Mob {

@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.rings;
+package tk.noampreil.superpixeldungeon.items.rings;
 
 import java.util.HashSet;
 
-import com.watabou.pixeldungeon.actors.blobs.ToxicGas;
-import com.watabou.pixeldungeon.actors.buffs.Burning;
-import com.watabou.pixeldungeon.actors.buffs.Poison;
-import com.watabou.pixeldungeon.actors.mobs.Eye;
-import com.watabou.pixeldungeon.actors.mobs.Warlock;
-import com.watabou.pixeldungeon.actors.mobs.Yog;
-import com.watabou.pixeldungeon.levels.traps.LightningTrap;
+import tk.noampreil.superpixeldungeon.actors.blobs.ToxicGas;
+import tk.noampreil.superpixeldungeon.actors.buffs.Burning;
+import tk.noampreil.superpixeldungeon.actors.buffs.Poison;
+import tk.noampreil.superpixeldungeon.actors.mobs.Eye;
+import tk.noampreil.superpixeldungeon.actors.mobs.Warlock;
+import tk.noampreil.superpixeldungeon.actors.mobs.Yog;
+import tk.noampreil.superpixeldungeon.levels.traps.LightningTrap;
 import com.watabou.utils.Random;
 
 public class RingOfElements extends Ring {

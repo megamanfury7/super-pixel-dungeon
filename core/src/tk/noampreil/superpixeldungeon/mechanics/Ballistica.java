@@ -15,10 +15,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.mechanics;
+package tk.noampreil.superpixeldungeon.mechanics;
 
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.levels.Level;
 
 public class Ballistica {
 

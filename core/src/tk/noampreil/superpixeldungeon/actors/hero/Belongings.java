@@ -15,21 +15,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.hero;
+package tk.noampreil.superpixeldungeon.actors.hero;
 
 import java.util.Iterator;
 
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.KindOfWeapon;
-import com.watabou.pixeldungeon.items.armor.Armor;
-import com.watabou.pixeldungeon.items.bags.Bag;
-import com.watabou.pixeldungeon.items.keys.IronKey;
-import com.watabou.pixeldungeon.items.keys.Key;
-import com.watabou.pixeldungeon.items.rings.Ring;
-import com.watabou.pixeldungeon.items.scrolls.ScrollOfRemoveCurse;
-import com.watabou.pixeldungeon.items.wands.Wand;
+import tk.noampreil.superpixeldungeon.Badges;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.KindOfWeapon;
+import tk.noampreil.superpixeldungeon.items.armor.Armor;
+import tk.noampreil.superpixeldungeon.items.bags.Bag;
+import tk.noampreil.superpixeldungeon.items.keys.IronKey;
+import tk.noampreil.superpixeldungeon.items.keys.Key;
+import tk.noampreil.superpixeldungeon.items.rings.Ring;
+import tk.noampreil.superpixeldungeon.items.scrolls.ScrollOfRemoveCurse;
+import tk.noampreil.superpixeldungeon.items.wands.Wand;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

@@ -15,11 +15,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels;
+package tk.noampreil.superpixeldungeon.levels;
 
 import java.util.Arrays;
 
-import com.watabou.pixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Assets;
 import com.watabou.utils.Random;
 
 public class DeadEndLevel extends Level {

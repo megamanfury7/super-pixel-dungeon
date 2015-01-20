@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.scenes;
+package tk.noampreil.superpixeldungeon.scenes;
 
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.BitmapTextMultiline;
@@ -23,20 +23,20 @@ import com.watabou.noosa.Camera;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.ui.Button;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.Rankings;
-import com.watabou.pixeldungeon.effects.Flare;
-import com.watabou.pixeldungeon.input.GameAction;
-import com.watabou.pixeldungeon.sprites.ItemSprite;
-import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.ui.Archs;
-import com.watabou.pixeldungeon.ui.ExitButton;
-import com.watabou.pixeldungeon.ui.Icons;
-import com.watabou.pixeldungeon.ui.Window;
-import com.watabou.pixeldungeon.utils.Utils;
-import com.watabou.pixeldungeon.windows.WndError;
-import com.watabou.pixeldungeon.windows.WndRanking;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.Rankings;
+import tk.noampreil.superpixeldungeon.effects.Flare;
+import tk.noampreil.superpixeldungeon.input.GameAction;
+import tk.noampreil.superpixeldungeon.sprites.ItemSprite;
+import tk.noampreil.superpixeldungeon.sprites.ItemSpriteSheet;
+import tk.noampreil.superpixeldungeon.ui.Archs;
+import tk.noampreil.superpixeldungeon.ui.ExitButton;
+import tk.noampreil.superpixeldungeon.ui.Icons;
+import tk.noampreil.superpixeldungeon.ui.Window;
+import tk.noampreil.superpixeldungeon.utils.Utils;
+import tk.noampreil.superpixeldungeon.windows.WndError;
+import tk.noampreil.superpixeldungeon.windows.WndRanking;
 
 public class RankingsScene extends PixelScene {
 	

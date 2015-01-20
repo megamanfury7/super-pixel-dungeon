@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.enchantments;
+package tk.noampreil.superpixeldungeon.items.weapon.enchantments;
 
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.items.weapon.Weapon;
-import com.watabou.pixeldungeon.items.weapon.Weapon.Enchantment;
-import com.watabou.pixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.items.weapon.Weapon;
+import tk.noampreil.superpixeldungeon.items.weapon.Weapon.Enchantment;
+import tk.noampreil.superpixeldungeon.levels.Level;
 import com.watabou.utils.Random;
 
 public class Piercing extends Enchantment {

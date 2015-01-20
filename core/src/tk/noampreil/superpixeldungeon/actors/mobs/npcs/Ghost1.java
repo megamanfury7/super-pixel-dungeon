@@ -15,49 +15,49 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs.npcs;
+package tk.noampreil.superpixeldungeon.actors.mobs.npcs;
 
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.blobs.Blob;
-import com.watabou.pixeldungeon.actors.blobs.Fire;
-import com.watabou.pixeldungeon.actors.blobs.StenchGas;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Burning;
-import com.watabou.pixeldungeon.actors.buffs.Ooze;
-import com.watabou.pixeldungeon.actors.buffs.Paralysis;
-import com.watabou.pixeldungeon.actors.buffs.Poison;
-import com.watabou.pixeldungeon.actors.buffs.Roots;
-import com.watabou.pixeldungeon.actors.mobs.Crab;
-import com.watabou.pixeldungeon.actors.mobs.Gnoll;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.actors.mobs.Rat;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.armor.Armor;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.MysteryMeat;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.CurareDart;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.MissileWeapon;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.SewerLevel;
-import com.shatteredpixel.shatteredpixeldungeon.levels.traps.LightningTrap;
-import com.shatteredpixel.shatteredpixeldungeon.mechanics.Ballistica;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.FetidRat1Sprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.GhostSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.GnollTricksterSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndQuest;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndSadGhost;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.blobs.Blob;
+import tk.noampreil.superpixeldungeon.actors.blobs.Fire;
+import tk.noampreil.superpixeldungeon.actors.blobs.StenchGas;
+import tk.noampreil.superpixeldungeon.actors.buffs.Buff;
+import tk.noampreil.superpixeldungeon.actors.buffs.Burning;
+import tk.noampreil.superpixeldungeon.actors.buffs.Ooze;
+import tk.noampreil.superpixeldungeon.actors.buffs.Paralysis;
+import tk.noampreil.superpixeldungeon.actors.buffs.Poison;
+import tk.noampreil.superpixeldungeon.actors.buffs.Roots;
+import tk.noampreil.superpixeldungeon.actors.mobs.Crab;
+import tk.noampreil.superpixeldungeon.actors.mobs.Gnoll;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.actors.mobs.Rat;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.armor.Armor;
+import tk.noampreil.superpixeldungeon.items.food.MysteryMeat;
+import tk.noampreil.superpixeldungeon.items.wands.Wand;
+import tk.noampreil.superpixeldungeon.items.weapon.Weapon;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.CurareDart;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.MissileWeapon;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.SewerLevel;
+import tk.noampreil.superpixeldungeon.levels.traps.LightningTrap;
+import tk.noampreil.superpixeldungeon.mechanics.Ballistica;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.sprites.CharSprite;
+import tk.noampreil.superpixeldungeon.sprites.FetidRat1Sprite;
+import tk.noampreil.superpixeldungeon.sprites.GhostSprite;
+import tk.noampreil.superpixeldungeon.sprites.GnollTricksterSprite;
+import tk.noampreil.superpixeldungeon.sprites.GreatCrabSprite;
+import tk.noampreil.superpixeldungeon.utils.GLog;
+import tk.noampreil.superpixeldungeon.windows.WndQuest;
+import tk.noampreil.superpixeldungeon.windows.WndSadGhost1;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
@@ -108,7 +108,7 @@ public class Ghost1 extends NPC {
 	"Please... Help me... Slay the Crustacean...\n\n" +
 	"_It will always block... When it sees you coming..._";
 
-	public Ghost() {
+	public Ghost1() {
 		super();
 
 		Sample.INSTANCE.load( Assets.SND_GHOST );
@@ -156,7 +156,7 @@ public class Ghost1 extends NPC {
 		if (Quest.given) {
 			if (Quest.weapon != null) {
                 if (Quest.processed) {
-                    GameScene.show(new WndSadGhost(this, Quest.type));
+                    GameScene.show(new WndSadGhost1(this, Quest.type));
                 } else {
                     switch (Quest.type) {
                         case 1:
@@ -258,7 +258,7 @@ public class Ghost1 extends NPC {
 			armor = null;
 		}
 
-		private static final String NODE		= "sadGhost";
+		private static final String NODE		= "sadGhost1";
 
 		private static final String SPAWNED		= "spawned";
         private static final String TYPE        = "type";
@@ -311,7 +311,7 @@ public class Ghost1 extends NPC {
 		public static void spawn( SewerLevel level ) {
 			if (!spawned && Dungeon.depth > 1 && Random.Int( 5 - Dungeon.depth ) == 0) {
 
-				Ghost ghost = new Ghost();
+				Ghost1 ghost = new Ghost1();
 				do {
 					ghost.pos = level.randomRespawnCell();
 				} while (ghost.pos == -1);
@@ -356,6 +356,7 @@ public class Ghost1 extends NPC {
 				GLog.n("sad ghost: Thank you... come find me...");
                 Sample.INSTANCE.play( Assets.SND_GHOST );
                 processed = true;
+				//requires artifact enabled in settings
                 Generator.Category.ARTIFACT.probs[10] = 1; //flags the dried rose as spawnable.
 			}
 		}

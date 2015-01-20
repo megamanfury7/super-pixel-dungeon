@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.levels.painters;
+package tk.noampreil.superpixeldungeon.levels.painters;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.levels.Room;
+import tk.noampreil.superpixeldungeon.levels.Level;
+import tk.noampreil.superpixeldungeon.levels.Room;
 import com.watabou.utils.Point;
 
 public class PassagePainter extends Painter {

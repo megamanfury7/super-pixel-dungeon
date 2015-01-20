@@ -17,7 +17,7 @@
  */
 package tk.noampreil.superpixeldungeon.actors.blobs;
 
-import com.watabou.pixeldungeon.Journal;
+import tk.noampreil.superpixeldungeon.Journal;
 import tk.noampreil.superpixeldungeon.Journal.Feature;
 import tk.noampreil.superpixeldungeon.effects.BlobEmitter;
 import tk.noampreil.superpixeldungeon.effects.Speck;

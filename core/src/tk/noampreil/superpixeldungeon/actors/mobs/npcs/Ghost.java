@@ -15,39 +15,34 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs.npcs;
+package tk.noampreil.superpixeldungeon.actors.mobs.npcs;
 
 import java.util.HashSet;
 
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Challenges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.Journal;
-import com.watabou.pixeldungeon.actors.Actor;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.blobs.Blob;
-import com.watabou.pixeldungeon.actors.blobs.ParalyticGas;
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Paralysis;
-import com.watabou.pixeldungeon.actors.buffs.Roots;
-import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.items.Generator;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.items.armor.Armor;
-import com.watabou.pixeldungeon.items.armor.ClothArmor;
-import com.watabou.pixeldungeon.items.quest.DriedRose;
-import com.watabou.pixeldungeon.items.quest.RatSkull;
-import com.watabou.pixeldungeon.items.weapon.Weapon;
-import com.watabou.pixeldungeon.items.weapon.missiles.MissileWeapon;
-import com.watabou.pixeldungeon.levels.SewerLevel;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.sprites.FetidRatSprite;
-import com.watabou.pixeldungeon.sprites.GhostSprite;
-import com.watabou.pixeldungeon.windows.WndQuest;
-import com.watabou.pixeldungeon.windows.WndSadGhost;
+import tk.noampreil.superpixeldungeon.*;
+import tk.noampreil.superpixeldungeon.actors.Actor;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.blobs.Blob;
+import tk.noampreil.superpixeldungeon.actors.blobs.ParalyticGas;
+import tk.noampreil.superpixeldungeon.actors.buffs.*;
+import tk.noampreil.superpixeldungeon.actors.mobs.Mob;
+import tk.noampreil.superpixeldungeon.effects.CellEmitter;
+import tk.noampreil.superpixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.items.Generator;
+import tk.noampreil.superpixeldungeon.items.Item;
+import tk.noampreil.superpixeldungeon.items.armor.Armor;
+import tk.noampreil.superpixeldungeon.items.armor.ClothArmor;
+import tk.noampreil.superpixeldungeon.items.quest.DriedRose;
+import tk.noampreil.superpixeldungeon.items.quest.RatSkull;
+import tk.noampreil.superpixeldungeon.items.weapon.Weapon;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.MissileWeapon;
+import tk.noampreil.superpixeldungeon.levels.SewerLevel;
+import tk.noampreil.superpixeldungeon.scenes.GameScene;
+import tk.noampreil.superpixeldungeon.sprites.FetidRatSprite;
+import tk.noampreil.superpixeldungeon.sprites.GhostSprite;
+import tk.noampreil.superpixeldungeon.windows.WndQuest;
+import tk.noampreil.superpixeldungeon.windows.WndSadGhost;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

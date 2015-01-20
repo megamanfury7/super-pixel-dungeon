@@ -15,19 +15,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.effects;
+package tk.noampreil.superpixeldungeon.effects;
 
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Group;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.effects.particles.FlameParticle;
-import com.watabou.pixeldungeon.effects.particles.LeafParticle;
-import com.watabou.pixeldungeon.effects.particles.PoisonParticle;
-import com.watabou.pixeldungeon.effects.particles.PurpleParticle;
-import com.watabou.pixeldungeon.effects.particles.ShadowParticle;
-import com.watabou.pixeldungeon.effects.particles.WoolParticle;
+import tk.noampreil.superpixeldungeon.DungeonTilemap;
+import tk.noampreil.superpixeldungeon.effects.particles.FlameParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.LeafParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.PoisonParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.PurpleParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.ShadowParticle;
+import tk.noampreil.superpixeldungeon.effects.particles.WoolParticle;
 import com.watabou.utils.Callback;
 import com.watabou.utils.ColorMath;
 import com.watabou.utils.PointF;

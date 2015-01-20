@@ -15,9 +15,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
-import com.watabou.pixeldungeon.ui.Icons;
+import tk.noampreil.superpixeldungeon.ui.Icons;
 
 public class WndError extends WndTitledMessage {
 

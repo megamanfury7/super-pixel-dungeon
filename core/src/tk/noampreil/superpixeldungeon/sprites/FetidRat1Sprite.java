@@ -1,8 +1,8 @@
-import com.watabou.pixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Assets;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.noosa.particles.Emitter;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.effects.Speck;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.effects.Speck;
 public class FetidRat1Sprite extends MobSprite {
 
 	private Emitter cloud;

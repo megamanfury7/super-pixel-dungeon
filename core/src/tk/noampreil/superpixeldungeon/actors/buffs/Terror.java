@@ -17,9 +17,9 @@
  */
 package tk.noampreil.superpixeldungeon.actors.buffs;
 
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.ui.BuffIndicator;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.ui.BuffIndicator;
 import com.watabou.utils.Bundle;
 
 public class Terror extends FlavourBuff {

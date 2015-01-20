@@ -15,20 +15,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.windows;
+package tk.noampreil.superpixeldungeon.windows;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.scenes.PixelScene;
-import com.watabou.pixeldungeon.ui.CheckBox;
-import com.watabou.pixeldungeon.ui.RedButton;
-import com.watabou.pixeldungeon.ui.Window;
-import com.watabou.pixeldungeon.windows.WndShatteredSettings;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.PixelDungeon;
+import tk.noampreil.superpixeldungeon.scenes.PixelScene;
+import tk.noampreil.superpixeldungeon.ui.CheckBox;
+import tk.noampreil.superpixeldungeon.ui.RedButton;
+import tk.noampreil.superpixeldungeon.ui.Window;
 
 public class WndSettings extends Window {
 	
@@ -52,7 +51,7 @@ public class WndSettings extends Window {
 	private static final String TXT_SWITCH_FULL = "Switch to fullscreen";
 	private static final String TXT_SWITCH_WIN = "Switch to windowed";
 
-	private static final String TXT_SHATTEREDPIXELOPTIONS = "Add/remove Shattered features";
+	private static final String TXT_SHATTEREDPIXELOPTIONS = "(En/Dis)able Shattered features";
 	private static final int WIDTH		= 112;
 	private static final int BTN_HEIGHT	= 20;
 	private static final int GAP 		= 2;
@@ -104,7 +103,16 @@ public class WndSettings extends Window {
 			btnScaleUp.setRect( 0, 0, WIDTH, BTN_HEIGHT );
 			btnScaleUp.checked( PixelDungeon.scaleUp() );
 			add( btnScaleUp );
-			
+			RedButton btnSP=new RedButton( TXT_SHATTEREDPIXELOPTIONS ) {
+				@Override
+				protected void onClick(){
+					super.onClick();
+					Sample.INSTANCE.play( Assets.SND_CLICK );
+					parent.add( new WndShatteredSettings() );
+				}
+			};
+			btnSP.setRect(0,btnScaleUp.bottom() + GAP,WIDTH,BTN_HEIGHT);
+			add(btnSP);
 		}
 		
 		CheckBox btnMusic = new CheckBox( TXT_MUSIC ) {
@@ -114,7 +122,7 @@ public class WndSettings extends Window {
 				PixelDungeon.music( checked() );
 			}
 		};
-		btnMusic.setRect( 0, BTN_HEIGHT + GAP, WIDTH, BTN_HEIGHT );
+		btnMusic.setRect( 0, btnSP.bottom() + GAP, WIDTH, BTN_HEIGHT );
 		btnMusic.checked( PixelDungeon.music() );
 		add( btnMusic );
 		
@@ -129,14 +137,7 @@ public class WndSettings extends Window {
 		btnSound.setRect( 0, btnMusic.bottom() + GAP, WIDTH, BTN_HEIGHT );
 		btnSound.checked( PixelDungeon.soundFx() );
 		add( btnSound );
-		CheckBox btnSP=new CheckBox( TXT_SHATTEREDPIXELOPTIONS ) {
-			@Override
-			public void onClick(){
-				super.onClick();
-				Sample.INSTANCE.play( Assets.SND_CLICK );
-				parent.add( new WndSettings() );
-			}
-		};
+		
 		
 		}
 		Application.ApplicationType type = Gdx.app.getType();

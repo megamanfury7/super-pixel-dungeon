@@ -15,26 +15,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.sprites;
+package com.shatteredpixel.shatteredpixeldungeon.sprites;
 
-import com.badlogic.gdx.graphics.Pixmap;
-import com.badlogic.gdx.graphics.TextureData;
-import com.watabou.gdx.GdxTexture;
+import android.graphics.Bitmap;
+import android.util.Log;
+
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.MovieClip;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.noosa.audio.Sample;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.effects.CellEmitter;
-import com.watabou.pixeldungeon.effects.Speck;
-import com.watabou.pixeldungeon.items.Gold;
-import com.watabou.pixeldungeon.items.Heap;
-import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.scenes.GameScene;
+import com.shatteredpixel.shatteredpixeldungeon.Assets;
+import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.shatteredpixel.shatteredpixeldungeon.DungeonTilemap;
+import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
+import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
+import com.shatteredpixel.shatteredpixeldungeon.items.Gold;
+import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
+import com.shatteredpixel.shatteredpixeldungeon.items.Item;
+import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
+import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 
@@ -140,7 +140,9 @@ public class ItemSprite extends MovieClip {
 			place( from );
 	
 			speed.offset( (px-x) / DROP_INTERVAL, (py-y) / DROP_INTERVAL );
-			
+
+            Log.d( "GAME", toString() );
+            Log.d( "GAME", String.format( "drop aside: %.1f %.1f", speed.x, speed.y ) );
 		}
 	}
 	
@@ -195,19 +197,11 @@ public class ItemSprite extends MovieClip {
 	}
 	
 	public static int pick( int index, int x, int y ) {
-		GdxTexture bmp = TextureCache.get( Assets.ITEMS ).bitmap;
+		Bitmap bmp = TextureCache.get( Assets.ITEMS ).bitmap;
 		int rows = bmp.getWidth() / SIZE;
 		int row = index / rows;
 		int col = index % rows;
-		// FIXME: I'm assuming this is super slow?
-		final TextureData td = bmp.getTextureData();
-		if (!td.isPrepared()) {
-			td.prepare();
-		}
-		final Pixmap pixmap = td.consumePixmap();
-		int pixel = pixmap.getPixel(col * SIZE + x, row * SIZE + y);
-		pixmap.dispose();
-		return pixel;
+		return bmp.getPixel( col * SIZE + x, row * SIZE + y );
 	}
 	
 	public static class Glowing {

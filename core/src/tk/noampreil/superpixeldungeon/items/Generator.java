@@ -15,27 +15,27 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items;
+package tk.noampreil.superpixeldungeon.items;
 
 import java.util.HashMap;
 
 import com.badlogic.gdx.utils.reflect.ClassReflection;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.actors.mobs.npcs.Wandmaker.Rotberry;
-import com.watabou.pixeldungeon.items.armor.*;
-import com.watabou.pixeldungeon.items.bags.Bag;
-import com.watabou.pixeldungeon.items.food.Food;
-import com.watabou.pixeldungeon.items.food.MysteryMeat;
-import com.watabou.pixeldungeon.items.food.Pasty;
-import com.watabou.pixeldungeon.items.potions.*;
-import com.watabou.pixeldungeon.items.rings.*;
-import com.watabou.pixeldungeon.items.scrolls.*;
-import com.watabou.pixeldungeon.items.wands.*;
-import com.watabou.pixeldungeon.items.weapon.*;
-import com.watabou.pixeldungeon.items.weapon.melee.*;
-import com.watabou.pixeldungeon.items.weapon.missiles.*;
-import com.watabou.pixeldungeon.plants.*;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.hero.Hero;
+import tk.noampreil.superpixeldungeon.actors.mobs.npcs.Wandmaker.Rotberry;
+import tk.noampreil.superpixeldungeon.items.armor.*;
+import tk.noampreil.superpixeldungeon.items.bags.Bag;
+import tk.noampreil.superpixeldungeon.items.food.Food;
+import tk.noampreil.superpixeldungeon.items.food.MysteryMeat;
+import tk.noampreil.superpixeldungeon.items.food.Pasty;
+import tk.noampreil.superpixeldungeon.items.potions.*;
+import tk.noampreil.superpixeldungeon.items.rings.*;
+import tk.noampreil.superpixeldungeon.items.scrolls.*;
+import tk.noampreil.superpixeldungeon.items.wands.*;
+import tk.noampreil.superpixeldungeon.items.weapon.*;
+import tk.noampreil.superpixeldungeon.items.weapon.melee.*;
+import tk.noampreil.superpixeldungeon.items.weapon.missiles.*;
+import tk.noampreil.superpixeldungeon.plants.*;
 import com.watabou.utils.Random;
 
 public class Generator {
@@ -176,7 +176,22 @@ public class Generator {
 			RingOfHaggler.class,
 			RingOfThorns.class };
 		Category.RING.probs = new float[]{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 };
-		
+		boolean blindweed=PixelDungeon.shatteredpixelBW();
+		if (blindweed){
+			Category.SEED.classes = new Class<?>[]{ 
+				Blindweed.Seed.class;
+				Firebloom.Seed.class,
+				Icecap.Seed.class,
+				Sorrowmoss.Seed.class,
+				Dreamweed.Seed.class,
+				Sungrass.Seed.class,
+				Earthroot.Seed.class,
+				Fadeleaf.Seed.class,
+				Rotberry.Seed.class };
+			Category.SEED.probs = new float[]{ 1, 1, 1, 1, 1, 1, 1, 1, 0 };
+		}
+		else{
+			
 		Category.SEED.classes = new Class<?>[]{ 
 			Firebloom.Seed.class,
 			Icecap.Seed.class,
@@ -187,7 +202,7 @@ public class Generator {
 			Fadeleaf.Seed.class,
 			Rotberry.Seed.class };
 		Category.SEED.probs = new float[]{ 1, 1, 1, 1, 1, 1, 1, 0 };
-	}
+	}}
 	
 	public static void reset() {
 		for (Category cat : Category.values()) {

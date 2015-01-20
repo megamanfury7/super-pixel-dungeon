@@ -15,10 +15,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.actors.mobs;
+package tk.noampreil.superpixeldungeon.actors.mobs;
 
 import com.badlogic.gdx.utils.reflect.ClassReflection;
-import com.watabou.pixeldungeon.actors.Char;
+import tk.noampreil.superpixeldungeon.actors.Char;
 import com.watabou.utils.Random;
 
 public class Bestiary {

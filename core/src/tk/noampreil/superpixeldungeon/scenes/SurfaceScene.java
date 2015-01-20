@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.scenes;
+package tk.noampreil.superpixeldungeon.scenes;
 
 import java.nio.FloatBuffer;
 
@@ -35,12 +35,12 @@ import com.watabou.noosa.TextureFilm;
 import com.watabou.noosa.TouchArea;
 import com.watabou.noosa.Visual;
 import com.watabou.noosa.audio.Music;
-import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.hero.HeroClass;
-import com.watabou.pixeldungeon.ui.Archs;
-import com.watabou.pixeldungeon.ui.RedButton;
+import tk.noampreil.superpixeldungeon.Assets;
+import tk.noampreil.superpixeldungeon.Badges;
+import tk.noampreil.superpixeldungeon.Dungeon;
+import tk.noampreil.superpixeldungeon.actors.hero.HeroClass;
+import tk.noampreil.superpixeldungeon.ui.Archs;
+import tk.noampreil.superpixeldungeon.ui.RedButton;
 import com.watabou.utils.Point;
 import com.watabou.utils.Random;
 
